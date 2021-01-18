@@ -173,10 +173,10 @@ def shared_memory():
     
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 if __name__ == '__main__':
-#     forked_processes()
-#     spawned_processes()
-#     bad_pools()
-#     good_pools()
+    forked_processes()
+    spawned_processes()
+    bad_pools()
+    good_pools()
     shared_memory()
 
     

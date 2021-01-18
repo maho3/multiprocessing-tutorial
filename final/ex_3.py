@@ -1,7 +1,7 @@
 
 """
-Example 2:
-    How do I manage memory during multiprocessing?
+Example 3:
+    How do I have processes communicate?
 """
 
 # Imports
@@ -79,6 +79,6 @@ def lock_example():
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 if __name__ == '__main__':
-#     queue_example()
-#     pipe_example()
+    queue_example()
+    pipe_example()
     lock_example()
